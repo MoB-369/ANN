@@ -7,49 +7,24 @@ This project demonstrates the use of Artificial Neural Networks (ANNs) for both 
 ```
 ANN
 ├── classification/
-│   ├── 
-
-app.py
-
-                # Streamlit app for classification
+│   ├── app.py # Streamlit app for classification
 │   ├── Churn_Modelling.csv   # Dataset for classification
-│   ├── 
-
-experiments.ipynb
-
-     # Notebook for classification experiments
+│   ├── experiments.ipynb # Notebook for classification experiments
 │   ├── label_encoder_gender.pkl
 │   ├── model.h5              # Trained classification model
 │   ├── onehot_encoder_geo.pkl
-│   ├── 
-
-prediction.ipynb
-
-      # Notebook for classification predictions
-│   ├── requirements.txt      # Dependencies for classification
+│   ├── prediction.ipynb # Notebook for classification predictions
 │   ├── scaler.pkl
 ├── regression/
-│   ├── 
-
-app.py
-
-                # Streamlit app for regression
+│   ├── app.py    # Streamlit app for regression
 │   ├── Churn_Modelling.csv   # Dataset for regression
-│   ├── 
-
-hyperparametertuningann.ipynb
-
-  # Notebook for hyperparameter tuning
+│   ├── hyperparametertuningann.ipynb # Notebook for hyperparameter tuning
 │   ├── label_encoder_gender.pkl
 │   ├── onehot_encoder_geo.pkl
 │   ├── salary_model.h5       # Trained regression model
-│   ├── 
-
-salaryregression.ipynb
-
- # Notebook for regression experiments
+│   ├── salaryregression.ipynb # Notebook for regression experiments
 │   ├── scaler.pkl
-├── venv/                     # Virtual environment
+├── requirements.txt 
 ├── .gitignore
 ```
 
@@ -71,8 +46,8 @@ salaryregression.ipynb
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   https://github.com/MoB-369/ANN.git
+   cd ANN
    ```
 
 2. Set up a virtual environment:
@@ -83,8 +58,7 @@ salaryregression.ipynb
 
 3. Install dependencies for both classification and regression:
    ```bash
-   pip install -r classification/requirements.txt
-   pip install -r regression/requirements.txt
+   pip install -r requirements.txt
    ```
 
 ## Usage
@@ -95,22 +69,14 @@ salaryregression.ipynb
 Navigate to the `classification` folder and run the Streamlit app:
 ```bash
 cd classification
-streamlit run 
-
-app.py
-
-
+streamlit run app.py
 ```
 
 #### Regression App
 Navigate to the `regression` folder and run the Streamlit app:
 ```bash
 cd regression
-streamlit run 
-
-app.py
-
-
+streamlit run app.py
 ```
 
 ### Notebooks
